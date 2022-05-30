@@ -1,0 +1,17 @@
+//CREACION DE FUNCION PARA PODER ALMACENAR LO QUE ENVIEMOS POR POST
+function agg (data){
+
+    const repo = [] //CREACION DE ARRAY PARA ALMACENAR OBJETO COMPUTADORA
+
+    repo.push(data); //HACEMOS UN PUSH A NUESTA VARIABLE DATA
+
+    console.log(repo); //MOSTRAMOS EN CONSOLA EL RESULTADO DEL ALMACENADO
+
+}
+
+module.exports = {
+
+    agg,
+
+}
+
